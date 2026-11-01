@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: Unzip project
-        run: unzip -q MyStream.zip
+        run: unzip -q MyStream-V2.zip
       - uses: actions/setup-java@v5
         with:
           distribution: temurin
